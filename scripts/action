@@ -1,0 +1,41 @@
+#!/bin/bash
+
+set -euo pipefail
+
+# This script should be called by GitHub Action
+
+function install_gettext {
+    sudo apt install -y gettext
+}
+
+function commit {
+    git config --global user.name  'Renovate Bot'
+    git config --global user.email 'renovate@whitesourcesoftware.com'
+
+    git add sources.txt messages.pot
+    git commit -m "chore(i18n): daily update the POT file"
+}
+
+function commit {
+    local changeLines
+    changeLines=$(git diff --shortstat messages.pot | awk '{ print $4 }')
+
+    if [ "$changeLines" -gt 1 ]; then
+        commit
+    else
+        git checkout .
+        echo 'The POT file have not changed. Goodbye.'
+    fi
+}
+
+function main {
+    install_gettext
+
+    make renovate upstream_repo=https://github.com/xingxing/renovate.git ref=i18n
+    make sources.txt
+    make messages.pot
+
+    commit
+}
+
+main

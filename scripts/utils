@@ -1,0 +1,63 @@
+#!/usr/bin/env bash
+
+set -euo pipefail
+
+function fetch_latest_renovate_release {
+    curl "https://api.github.com/repos/renovatebot/renovate/releases/latest" \
+        --silent \
+        -H "Authorization: token ${GITHUB_TOKEN}" | grep '"tag_name":' | sed -E 's/.*"([^"]+)".*/\1/'
+}
+
+function clone_renovate {
+    local repo="$1"
+    local ref="$2"
+
+    git clone \
+        --quiet \
+        --branch "$ref" \
+        --depth 1 \
+        "$repo" \
+        renovate
+}
+
+function update_source_txt {
+    grep \
+        --files-with-match \
+		--recursive \
+		--include \*.ts \
+		--extended-regexp '\.(gettext|dgettext|ngettext|dngettext|pgettext|dpgettext|npgettext|dnpgettext)\(' \
+        renovate/lib | sort > sources.txt
+}
+
+function extract_translable_strings {
+    xgettext \
+	    --files-from=sources.txt \
+	    --output=messages.pot \
+		--sort-by-file \
+		--join-existing \
+		--language=JavaScript \
+		--package-name=renovate-platform
+}
+
+function main() {
+    case $1 in
+        fetch_latest_renovate_release)
+            fetch_latest_renovate_release
+            ;;
+        clone_renovate)
+            shift
+            clone_renovate "$@"
+            ;;
+        update_source_txt)
+            update_source_txt
+            ;;
+        extract_translable_strings)
+            extract_translable_strings
+            ;;
+    *)
+        echo "Unknown command"
+        exit 1
+    esac
+}
+
+main "$@"

@@ -1,0 +1,1088 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the renovate-platform package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: renovate-platform\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-09-23 17:01+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: renovate/lib/config/presets/internal/compatibility.ts:7
+msgid ""
+"Backwards-compatibility preset to restore `additionalBranchPrefix` settings "
+"for multiple managers which were removed in Renovate `v25`."
+msgstr ""
+
+#: renovate/lib/config/presets/internal/config.ts:6
+msgid "Default base configuration for all languages."
+msgstr ""
+
+#: renovate/lib/config/presets/internal/config.ts:20
+msgid "Default configuration for webapps."
+msgstr ""
+
+#: renovate/lib/config/presets/internal/config.ts:24
+msgid "Default configuration for libraries."
+msgstr ""
+
+#: renovate/lib/config/presets/internal/config.ts:29
+msgid "Preserve SemVer ranges and update everything together once a month."
+msgstr ""
+
+#: renovate/lib/config/presets/internal/default.ts:6
+msgid "Enable Renovate."
+msgstr ""
+
+#: renovate/lib/config/presets/internal/default.ts:10
+msgid "Disable Renovate."
+msgstr ""
+
+#: renovate/lib/config/presets/internal/default.ts:14
+msgid "Disable `major` updates."
+msgstr ""
+
+#: renovate/lib/config/presets/internal/default.ts:20
+msgid "Disable requests to a particular domain."
+msgstr ""
+
+#: renovate/lib/config/presets/internal/default.ts:29
+msgid "Disable requests to a particular host."
+msgstr ""
+
+#: renovate/lib/config/presets/internal/default.ts:38
+msgid "Enable the pre-commit manager."
+msgstr ""
+
+#: renovate/lib/config/presets/internal/default.ts:45
+msgid ""
+"Ignore `node_modules`, `bower_components`, `vendor` and various test/tests "
+"directories."
+msgstr ""
+
+#: renovate/lib/config/presets/internal/default.ts:60
+msgid ""
+"Include `package.json` files found within `node_modules` folders or "
+"`bower_components`."
+msgstr ""
+
+#: renovate/lib/config/presets/internal/default.ts:66
+msgid ""
+"Use version pinning (maintain a single version only and not SemVer ranges)."
+msgstr ""
+
+#: renovate/lib/config/presets/internal/default.ts:72
+msgid "Preserve (but continue to upgrade) any existing SemVer ranges."
+msgstr ""
+
+#: renovate/lib/config/presets/internal/default.ts:78
+msgid "Pin all dependency versions except `peerDependencies`."
+msgstr ""
+
+#: renovate/lib/config/presets/internal/default.ts:93
+msgid ""
+"Pin dependency versions where `depType=dependencies`. Usually applies only "
+"to non-dev dependencies in `package.json`."
+msgstr ""
+
+#: renovate/lib/config/presets/internal/default.ts:103
+msgid "Pin dependency versions for `devDependencies`."
+msgstr ""
+
+#: renovate/lib/config/presets/internal/default.ts:113
+msgid ""
+"Pin dependency versions for `devDependencies` and retain SemVer ranges for "
+"others."
+msgstr ""
+
+#: renovate/lib/config/presets/internal/default.ts:132
+msgid "Autodetect whether to pin dependencies or maintain ranges."
+msgstr ""
+
+#: renovate/lib/config/presets/internal/default.ts:138
+msgid "Separate `major` versions of dependencies into individual branches/PRs."
+msgstr ""
+
+#: renovate/lib/config/presets/internal/default.ts:144
+msgid ""
+"Separate each `major` version of dependencies into individual branches/PRs."
+msgstr ""
+
+#: renovate/lib/config/presets/internal/default.ts:151
+msgid ""
+"Separate `patch` and `minor` releases of dependencies into separate PRs."
+msgstr ""
+
+#: renovate/lib/config/presets/internal/default.ts:157
+msgid ""
+"Do not separate `patch` and `minor` upgrades into separate PRs for the same "
+"dependency."
+msgstr ""
+
+#: renovate/lib/config/presets/internal/default.ts:162
+msgid "Prefix `renovate/` to all branch names."
+msgstr ""
+
+#: renovate/lib/config/presets/internal/default.ts:167
+msgid ""
+"Use `{{arg0}}` as semantic commit type for commit messages and PR titles."
+msgstr ""
+
+#: renovate/lib/config/presets/internal/default.ts:173
+msgid "Use `chore` as semantic commit type for commit messages and PR titles."
+msgstr ""
+
+#: renovate/lib/config/presets/internal/default.ts:179
+msgid "Use `fix` as semantic commit type for commit messages and PR titles."
+msgstr ""
+
+#: renovate/lib/config/presets/internal/default.ts:185
+msgid "Do not renovate `peerDependencies` versions/ranges."
+msgstr ""
+
+#: renovate/lib/config/presets/internal/default.ts:213
+msgid ""
+"If Renovate detects semantic commits, it will use semantic commit type `fix` "
+"for dependencies and `chore` for all others."
+msgstr ""
+
+#: renovate/lib/config/presets/internal/default.ts:196
+msgid "Do not renovate `devDependencies` versions/ranges."
+msgstr ""
+
+#: renovate/lib/config/presets/internal/default.ts:206
+msgid "Disable `digest` and Git hash updates."
+msgstr ""
+
+#: renovate/lib/config/presets/internal/default.ts:240
+msgid ""
+"If Renovate detects semantic commits, it will use semantic commit type "
+"`{{arg0}}` for all commits."
+msgstr ""
+
+#: renovate/lib/config/presets/internal/default.ts:251
+msgid "Rebase existing PRs any time the base branch has been updated."
+msgstr ""
+
+#: renovate/lib/config/presets/internal/default.ts:277
+msgid "Rate limit PR creation to a maximum of two per hour."
+msgstr ""
+
+#: renovate/lib/config/presets/internal/default.ts:256
+msgid "Raise PRs immediately (after branch is created)."
+msgstr ""
+
+#: renovate/lib/config/presets/internal/default.ts:261
+msgid "Wait for branch tests to pass or fail before creating the PR."
+msgstr ""
+
+#: renovate/lib/config/presets/internal/default.ts:266
+msgid "Removes rate limit for PR creation per hour."
+msgstr ""
+
+#: renovate/lib/config/presets/internal/default.ts:292
+msgid "Limit to maximum 10 open PRs at any time."
+msgstr ""
+
+#: renovate/lib/config/presets/internal/default.ts:271
+msgid "Rate limit PR creation to a maximum of one per hour."
+msgstr ""
+
+#: renovate/lib/config/presets/internal/default.ts:283
+msgid "Rate limit PR creation to a maximum of four per hour."
+msgstr ""
+
+#: renovate/lib/config/presets/internal/default.ts:288
+msgid "Remove limit for open PRs at any time."
+msgstr ""
+
+#: renovate/lib/config/presets/internal/default.ts:296
+msgid "Limit to maximum 20 open PRs at any time."
+msgstr ""
+
+#: renovate/lib/config/presets/internal/default.ts:300
+msgid "Remove hourly and concurrent rate limits."
+msgstr ""
+
+#: renovate/lib/config/presets/internal/default.ts:306
+msgid "Disable automerging feature - wait for humans to merge all PRs."
+msgstr ""
+
+#: renovate/lib/config/presets/internal/default.ts:311
+msgid "Automerge `digest` upgrades if they pass tests."
+msgstr ""
+
+#: renovate/lib/config/presets/internal/default.ts:317
+msgid "Automerge `patch` upgrades if they pass tests."
+msgstr ""
+
+#: renovate/lib/config/presets/internal/default.ts:331
+msgid "Automerge `patch` and `minor` upgrades if they pass tests."
+msgstr ""
+
+#: renovate/lib/config/presets/internal/default.ts:348
+#: renovate/lib/config/presets/internal/default.ts:354
+msgid "Automerge all upgrades (including `major`) if they pass tests."
+msgstr ""
+
+#: renovate/lib/config/presets/internal/default.ts:360
+msgid ""
+"If automerging, push the new commit directly to the base branch (no PR)."
+msgstr ""
+
+#: renovate/lib/config/presets/internal/default.ts:365
+msgid "Raise a PR first before any automerging."
+msgstr ""
+
+#: renovate/lib/config/presets/internal/default.ts:370
+msgid "Require all status checks to pass before any automerging."
+msgstr ""
+
+#: renovate/lib/config/presets/internal/default.ts:375
+msgid "Skip status checks and automerge right away."
+msgstr ""
+
+#: renovate/lib/config/presets/internal/default.ts:380
+msgid "Update existing lock files only when `package.json` is modified."
+msgstr ""
+
+#: renovate/lib/config/presets/internal/default.ts:387
+msgid "Disable pinning of Docker dependency digests."
+msgstr ""
+
+#: renovate/lib/config/presets/internal/default.ts:392
+msgid "Run lock file maintenance (updates) early Monday mornings."
+msgstr ""
+
+#: renovate/lib/config/presets/internal/default.ts:401
+msgid "Run lock file maintenance (updates) on the first day of each month."
+msgstr ""
+
+#: renovate/lib/config/presets/internal/default.ts:410
+msgid "Upgrade to unstable versions only if the existing version is unstable."
+msgstr ""
+
+#: renovate/lib/config/presets/internal/default.ts:416
+msgid "Upgrade versions up to the \"latest\" tag in the npm registry."
+msgstr ""
+
+#: renovate/lib/config/presets/internal/default.ts:422
+msgid "Keep existing branches updated even when not scheduled."
+msgstr ""
+
+#: renovate/lib/config/presets/internal/default.ts:427
+msgid "Only update branches when scheduled."
+msgstr ""
+
+#: renovate/lib/config/presets/internal/default.ts:432
+msgid "Update lint packages automatically if tests pass."
+msgstr ""
+
+#: renovate/lib/config/presets/internal/default.ts:443
+msgid "Update testing packages automatically if tests pass."
+msgstr ""
+
+#: renovate/lib/config/presets/internal/default.ts:454
+msgid "Update `@types/*` packages automatically if tests pass."
+msgstr ""
+
+#: renovate/lib/config/presets/internal/default.ts:464
+msgid "Disable version pinning for `{{arg0}}`."
+msgstr ""
+
+#: renovate/lib/config/presets/internal/default.ts:474
+msgid "Add `[skip ci]` to commit message body whenever pinning."
+msgstr ""
+
+#: renovate/lib/config/presets/internal/default.ts:481
+msgid "Append `Signed-off-by:` to signoff Git commits."
+msgstr ""
+
+#: renovate/lib/config/presets/internal/default.ts:485
+msgid "Keep `package.json` npm dependencies updated."
+msgstr ""
+
+#: renovate/lib/config/presets/internal/default.ts:491
+msgid "Enable Go modules support."
+msgstr ""
+
+#: renovate/lib/config/presets/internal/default.ts:497
+msgid "Renovate only npm dependencies."
+msgstr ""
+
+#: renovate/lib/config/presets/internal/default.ts:506
+msgid "Keep Dockerfile `FROM` sources updated."
+msgstr ""
+
+#: renovate/lib/config/presets/internal/default.ts:512
+msgid "Keep Meteor Npm.depends packages updated."
+msgstr ""
+
+#: renovate/lib/config/presets/internal/default.ts:518
+msgid "Group `{{arg1}}` packages into same branch/PR."
+msgstr ""
+
+#: renovate/lib/config/presets/internal/default.ts:527
+msgid "Apply label `{{arg0}}` to PRs."
+msgstr ""
+
+#: renovate/lib/config/presets/internal/default.ts:531
+msgid "Apply labels `{{arg0}}` and `{{arg1}}` to PRs."
+msgstr ""
+
+#: renovate/lib/config/presets/internal/default.ts:535
+msgid "Assign PRs to `{{arg0}}`."
+msgstr ""
+
+#: renovate/lib/config/presets/internal/default.ts:539
+msgid "Add `{{arg0}}` as reviewer for PRs."
+msgstr ""
+
+#: renovate/lib/config/presets/internal/default.ts:607
+msgid "Enable Renovate Dependency Dashboard creation."
+msgstr ""
+
+#: renovate/lib/config/presets/internal/default.ts:543
+msgid "Set `{{arg0}}` as assignee and reviewer of PRs."
+msgstr ""
+
+#: renovate/lib/config/presets/internal/default.ts:547
+msgid "Raise PR when vulnerability alerts are detected."
+msgstr ""
+
+#: renovate/lib/config/presets/internal/default.ts:611
+msgid "Disable Renovate Dependency Dashboard creation."
+msgstr ""
+
+#: renovate/lib/config/presets/internal/default.ts:554
+msgid "Raise PR when vulnerability alerts are detected with label `{{arg0}}`."
+msgstr ""
+
+#: renovate/lib/config/presets/internal/default.ts:562
+msgid "Disable vulnerability alerts completely."
+msgstr ""
+
+#: renovate/lib/config/presets/internal/default.ts:569
+msgid "Use semantic prefixes for commit messages and PR titles."
+msgstr ""
+
+#: renovate/lib/config/presets/internal/default.ts:575
+msgid "Disable semantic prefixes for commit messages and PR titles."
+msgstr ""
+
+#: renovate/lib/config/presets/internal/default.ts:580
+msgid "Disable lock file updates."
+msgstr ""
+
+#: renovate/lib/config/presets/internal/default.ts:585
+msgid "Use semantic commit scope `{{arg0}}` for all commits and PR titles."
+msgstr ""
+
+#: renovate/lib/config/presets/internal/default.ts:591
+msgid "Disable semantic commit scope for all commits and PR titles."
+msgstr ""
+
+#: renovate/lib/config/presets/internal/default.ts:597
+msgid ""
+"Always widen `peerDependencies` SemVer ranges when updating, instead of "
+"replacing."
+msgstr ""
+
+#: renovate/lib/config/presets/internal/default.ts:616
+msgid "Enable Renovate Dependency Dashboard approval workflow."
+msgstr ""
+
+#: renovate/lib/config/presets/internal/default.ts:622
+msgid "Evaluate schedules according to timezone `{{arg0}}`."
+msgstr ""
+
+#: renovate/lib/config/presets/internal/default.ts:628
+msgid ""
+"Use semanticCommitType `{{arg0}}` for all package files matching path "
+"`{{arg1}}`."
+msgstr ""
+
+#: renovate/lib/config/presets/internal/default.ts:639
+msgid "For package `{{arg0}}`, strictly follow release tag `{{arg1}}`."
+msgstr ""
+
+#: renovate/lib/config/presets/internal/default.ts:650
+msgid ""
+"Use provided token for `github.com` lookups. Do not configure this if you "
+"are already running on `github.com`."
+msgstr ""
+
+#: renovate/lib/config/presets/internal/default.ts:662
+msgid "Remove the checkbox controls from PRs."
+msgstr ""
+
+#: renovate/lib/config/presets/internal/docker.ts:6
+msgid "Disable Docker updates."
+msgstr ""
+
+#: renovate/lib/config/presets/internal/docker.ts:18
+msgid "Enable Docker `major` updates."
+msgstr ""
+
+#: renovate/lib/config/presets/internal/docker.ts:28
+msgid "Disable Docker `major` updates."
+msgstr ""
+
+#: renovate/lib/config/presets/internal/docker.ts:38
+msgid "Pin Docker digests."
+msgstr ""
+
+#: renovate/lib/config/presets/internal/group.ts:9
+msgid "Group all updates together."
+msgstr ""
+
+#: renovate/lib/config/presets/internal/group.ts:25
+msgid "Group all `minor` and `patch` updates together."
+msgstr ""
+
+#: renovate/lib/config/presets/internal/group.ts:37
+msgid ""
+"Group anything that looks like Node.js together so that it's updated "
+"together."
+msgstr ""
+
+#: renovate/lib/config/presets/internal/group.ts:51
+msgid "Use curated list of recommended non-monorepo package groupings."
+msgstr ""
+
+#: renovate/lib/config/presets/internal/group.ts:105
+msgid "Group all packages published by Apollo GraphQL together."
+msgstr ""
+
+#: renovate/lib/config/presets/internal/group.ts:115
+msgid "Group CodeMirror packages together."
+msgstr ""
+
+#: renovate/lib/config/presets/internal/group.ts:124
+msgid "Group all `@types` packages together."
+msgstr ""
+
+#: renovate/lib/config/presets/internal/group.ts:133
+msgid ".NET Core Docker containers."
+msgstr ""
+
+#: renovate/lib/config/presets/internal/group.ts:143
+msgid "Group all packages by Font Awesome together."
+msgstr ""
+
+#: renovate/lib/config/presets/internal/group.ts:152
+msgid "Group Fusion.js packages together."
+msgstr ""
+
+#: renovate/lib/config/presets/internal/group.ts:162
+msgid "Group Glimmer.js packages together."
+msgstr ""
+
+#: renovate/lib/config/presets/internal/group.ts:172
+msgid "Group PHP Illuminate packages together."
+msgstr ""
+
+#: renovate/lib/config/presets/internal/group.ts:182
+msgid "Group PHP Symfony packages together."
+msgstr ""
+
+#: renovate/lib/config/presets/internal/group.ts:192
+msgid "Group PHPStan packages together."
+msgstr ""
+
+#: renovate/lib/config/presets/internal/group.ts:202
+msgid "Group all `@polymer` packages together."
+msgstr ""
+
+#: renovate/lib/config/presets/internal/group.ts:211
+msgid "Group Java Hibernate Core packages."
+msgstr ""
+
+#: renovate/lib/config/presets/internal/group.ts:220
+msgid "Group Java Hibernate Validator packages."
+msgstr ""
+
+#: renovate/lib/config/presets/internal/group.ts:229
+msgid "Group Java Hibernate OGM packages."
+msgstr ""
+
+#: renovate/lib/config/presets/internal/group.ts:238
+msgid "Group Java Hibernate Commons packages."
+msgstr ""
+
+#: renovate/lib/config/presets/internal/group.ts:247
+msgid "Group Java Resilience4j packages."
+msgstr ""
+
+#: renovate/lib/config/presets/internal/group.ts:256
+msgid "Group Java Spring AMQP packages."
+msgstr ""
+
+#: renovate/lib/config/presets/internal/group.ts:265
+msgid "Group Java Spring Android packages."
+msgstr ""
+
+#: renovate/lib/config/presets/internal/group.ts:274
+msgid "Group Java Spring Batch packages."
+msgstr ""
+
+#: renovate/lib/config/presets/internal/group.ts:283
+msgid "Group Java Spring Boot packages."
+msgstr ""
+
+#: renovate/lib/config/presets/internal/group.ts:293
+msgid "Group Java Spring Cloud packages."
+msgstr ""
+
+#: renovate/lib/config/presets/internal/group.ts:302
+msgid "Group Java Spring Core packages."
+msgstr ""
+
+#: renovate/lib/config/presets/internal/group.ts:311
+msgid "Group Java Spring Data packages."
+msgstr ""
+
+#: renovate/lib/config/presets/internal/group.ts:320
+msgid "Group Java Spring HATEOAS packages."
+msgstr ""
+
+#: renovate/lib/config/presets/internal/group.ts:329
+msgid "Group Java Spring Integration packages."
+msgstr ""
+
+#: renovate/lib/config/presets/internal/group.ts:338
+msgid "Group Java Spring Kafka packages."
+msgstr ""
+
+#: renovate/lib/config/presets/internal/group.ts:347
+msgid "Group Java Spring LDAP packages."
+msgstr ""
+
+#: renovate/lib/config/presets/internal/group.ts:356
+msgid "Group Java Spring Mobile packages."
+msgstr ""
+
+#: renovate/lib/config/presets/internal/group.ts:365
+msgid "Group Java Spring OSGi packages."
+msgstr ""
+
+#: renovate/lib/config/presets/internal/group.ts:374
+msgid "Group Java Spring REST Docs packages."
+msgstr ""
+
+#: renovate/lib/config/presets/internal/group.ts:383
+msgid "Group Java Spring Roo packages."
+msgstr ""
+
+#: renovate/lib/config/presets/internal/group.ts:392
+msgid "Group Java Spring Scala packages."
+msgstr ""
+
+#: renovate/lib/config/presets/internal/group.ts:401
+msgid "Group Java Spring Security packages."
+msgstr ""
+
+#: renovate/lib/config/presets/internal/group.ts:410
+msgid "Group Java Spring Session packages."
+msgstr ""
+
+#: renovate/lib/config/presets/internal/group.ts:419
+msgid "Group Java Spring Shell packages."
+msgstr ""
+
+#: renovate/lib/config/presets/internal/group.ts:428
+msgid "Group Java Spring Social packages."
+msgstr ""
+
+#: renovate/lib/config/presets/internal/group.ts:437
+msgid "Group Java Spring Statemachine packages."
+msgstr ""
+
+#: renovate/lib/config/presets/internal/group.ts:446
+msgid "Group Java Spring WebFlow packages."
+msgstr ""
+
+#: renovate/lib/config/presets/internal/group.ts:455
+msgid "Group Java Spring WS packages."
+msgstr ""
+
+#: renovate/lib/config/presets/internal/group.ts:464
+msgid "Group socket.io packages."
+msgstr ""
+
+#: renovate/lib/config/presets/internal/group.ts:473
+msgid "Group PostCSS packages together."
+msgstr ""
+
+#: renovate/lib/config/presets/internal/group.ts:482
+msgid "Group Jekyll and related Ruby packages together."
+msgstr ""
+
+#: renovate/lib/config/presets/internal/group.ts:494
+msgid "Group Ruby on Rails packages together."
+msgstr ""
+
+#: renovate/lib/config/presets/internal/group.ts:518
+msgid "Group OmniAuth packages together."
+msgstr ""
+
+#: renovate/lib/config/presets/internal/group.ts:528
+msgid "Group `go-openapi` packages together."
+msgstr ""
+
+#: renovate/lib/config/presets/internal/group.ts:539
+msgid "Group Kubernetes packages together."
+msgstr ""
+
+#: renovate/lib/config/presets/internal/group.ts:578
+msgid "Group `googleapis` packages together."
+msgstr ""
+
+#: renovate/lib/config/presets/internal/group.ts:587
+msgid "Group various lint packages together."
+msgstr ""
+
+#: renovate/lib/config/presets/internal/group.ts:596
+msgid "Group JavaScript unit test packages together."
+msgstr ""
+
+#: renovate/lib/config/presets/internal/group.ts:606
+msgid "Group JavaScipt unit test packages together for non-major updates."
+msgstr ""
+
+#: renovate/lib/config/presets/internal/group.ts:617
+msgid "Group all unit test packages together."
+msgstr ""
+
+#: renovate/lib/config/presets/internal/group.ts:627
+msgid "Group all unit test packages together for non-major updates."
+msgstr ""
+
+#: renovate/lib/config/presets/internal/group.ts:638
+msgid "Group JS test packages together."
+msgstr ""
+
+#: renovate/lib/config/presets/internal/group.ts:648
+msgid "Group non-major JS test package updates together."
+msgstr ""
+
+#: renovate/lib/config/presets/internal/group.ts:659
+msgid "Group all test packages together."
+msgstr ""
+
+#: renovate/lib/config/presets/internal/group.ts:669
+msgid "Group all non-major test package updates together."
+msgstr ""
+
+#: renovate/lib/config/presets/internal/group.ts:680
+msgid "Add `ts-jest` `major` update to Jest monorepo."
+msgstr ""
+
+#: renovate/lib/config/presets/internal/group.ts:690
+msgid "Add `@types/jest` update to Jest monorepo."
+msgstr ""
+
+#: renovate/lib/config/presets/internal/group.ts:721
+msgid "Group known monorepo packages together."
+msgstr ""
+
+#: renovate/lib/config/presets/internal/helpers.ts:6
+msgid "Disable `major` updates to `@types/node`."
+msgstr ""
+
+#: renovate/lib/config/presets/internal/helpers.ts:17
+msgid "Keep `typescript` version in sync with the `next` tag."
+msgstr ""
+
+#: renovate/lib/config/presets/internal/helpers.ts:23
+msgid "Keep `typescript` version in sync with the `rc` tag."
+msgstr ""
+
+#: renovate/lib/config/presets/internal/helpers.ts:28
+msgid "Pin `github-action` digests."
+msgstr ""
+
+#: renovate/lib/config/presets/internal/npm.ts:7
+msgid ""
+"Wait until the npm package is three days old before raising the update, this "
+"prevents npm unpublishing a package you already upgraded to."
+msgstr ""
+
+#: renovate/lib/config/presets/internal/packages.ts:6
+msgid "All AngularJS packages."
+msgstr ""
+
+#: renovate/lib/config/presets/internal/packages.ts:15
+msgid "All React packages."
+msgstr ""
+
+#: renovate/lib/config/presets/internal/packages.ts:20
+msgid "All packages published by Apollo GraphQL."
+msgstr ""
+
+#: renovate/lib/config/presets/internal/packages.ts:24
+msgid "All Mapbox-related packages."
+msgstr ""
+
+#: renovate/lib/config/presets/internal/packages.ts:28
+msgid "All ember-template-lint packages."
+msgstr ""
+
+#: renovate/lib/config/presets/internal/packages.ts:32
+msgid "All ESLint packages."
+msgstr ""
+
+#: renovate/lib/config/presets/internal/packages.ts:37
+msgid "All Stylelint packages."
+msgstr ""
+
+#: renovate/lib/config/presets/internal/packages.ts:41
+msgid "All TSLint packages."
+msgstr ""
+
+#: renovate/lib/config/presets/internal/packages.ts:46
+msgid "All lint-related packages."
+msgstr ""
+
+#: renovate/lib/config/presets/internal/packages.ts:56
+msgid "All PostCSS packages."
+msgstr ""
+
+#: renovate/lib/config/presets/internal/packages.ts:61
+msgid "Unit test packages for JavaScript."
+msgstr ""
+
+#: renovate/lib/config/presets/internal/packages.ts:98
+msgid "All unit test packages."
+msgstr ""
+
+#: renovate/lib/config/presets/internal/packages.ts:102
+msgid "JavaScript test packages."
+msgstr ""
+
+#: renovate/lib/config/presets/internal/packages.ts:106
+msgid "Test packages."
+msgstr ""
+
+#: renovate/lib/config/presets/internal/packages.ts:110
+msgid "All packages published by Gatsby."
+msgstr ""
+
+#: renovate/lib/config/presets/internal/packages.ts:115
+msgid "All `googleapis` packages."
+msgstr ""
+
+#: renovate/lib/config/presets/internal/preview.ts:6
+msgid "Enable Docker Compose image updating."
+msgstr ""
+
+#: renovate/lib/config/presets/internal/preview.ts:12
+msgid "Upgrade Docker tags to newer versions."
+msgstr ""
+
+#: renovate/lib/config/presets/internal/preview.ts:23
+msgid "Enable Buildkite functionality."
+msgstr ""
+
+#: renovate/lib/config/presets/internal/regex-managers.ts:6
+msgid "Update `_VERSION` variables in Dockerfiles."
+msgstr ""
+
+#: renovate/lib/config/presets/internal/replacements.ts:12
+msgid "All replacements."
+msgstr ""
+
+#: renovate/lib/config/presets/internal/replacements.ts:33
+msgid "`babel-eslint` was renamed under the `@babel` scope."
+msgstr ""
+
+#: renovate/lib/config/presets/internal/replacements.ts:46
+msgid "`cucumber` became scoped."
+msgstr ""
+
+#: renovate/lib/config/presets/internal/replacements.ts:57
+msgid "`fastify` packages became scoped"
+msgstr ""
+
+#: renovate/lib/config/presets/internal/replacements.ts:412
+msgid "`hapi` became scoped."
+msgstr ""
+
+#: renovate/lib/config/presets/internal/replacements.ts:424
+msgid "Jade was renamed to Pug."
+msgstr ""
+
+#: renovate/lib/config/presets/internal/replacements.ts:436
+msgid "`joi` became scoped under the `hapi` organization."
+msgstr ""
+
+#: renovate/lib/config/presets/internal/replacements.ts:449
+msgid "`joi` was moved out of the `hapi` organization."
+msgstr ""
+
+#: renovate/lib/config/presets/internal/replacements.ts:461
+msgid "`middie` became scoped."
+msgstr ""
+
+#: renovate/lib/config/presets/internal/replacements.ts:473
+msgid "`now` was renamed to `vercel`."
+msgstr ""
+
+#: renovate/lib/config/presets/internal/replacements.ts:485
+msgid "`@parcel/css` was renamed `lightningcss`."
+msgstr ""
+
+#: renovate/lib/config/presets/internal/replacements.ts:497
+msgid "`react-query/devtools` became scoped under the `tanstack` organization."
+msgstr ""
+
+#: renovate/lib/config/presets/internal/replacements.ts:511
+msgid "`react-query` became scoped under the `tanstack` organization."
+msgstr ""
+
+#: renovate/lib/config/presets/internal/replacements.ts:525
+msgid ""
+"The `redux-devtools-extension` package was renamed to `@redux-devtools/"
+"extension`."
+msgstr ""
+
+#: renovate/lib/config/presets/internal/replacements.ts:538
+msgid "The `@renovate/pep440` package was renamed to `@renovatebot/pep440`."
+msgstr ""
+
+#: renovate/lib/config/presets/internal/replacements.ts:551
+msgid "The node-resolve plugin for rollup became scoped."
+msgstr ""
+
+#: renovate/lib/config/presets/internal/replacements.ts:564
+msgid "The `xmldom` package is now published as `@xmldom/xmldom`."
+msgstr ""
+
+#: renovate/lib/config/presets/internal/replacements.ts:593
+msgid ""
+"The `material-ui` monorepo org was renamed from `@material-ui` to `@mui`."
+msgstr ""
+
+#: renovate/lib/config/presets/internal/schedule.ts:6
+msgid "Weekly schedule on early Monday mornings."
+msgstr ""
+
+#: renovate/lib/config/presets/internal/schedule.ts:10
+msgid "Schedule daily."
+msgstr ""
+
+#: renovate/lib/config/presets/internal/schedule.ts:14
+msgid "Schedule weekly."
+msgstr ""
+
+#: renovate/lib/config/presets/internal/schedule.ts:18
+msgid "Schedule monthly."
+msgstr ""
+
+#: renovate/lib/config/presets/internal/schedule.ts:22
+msgid "Schedule quarterly."
+msgstr ""
+
+#: renovate/lib/config/presets/internal/schedule.ts:26
+msgid "Schedule once a year (not recommended)."
+msgstr ""
+
+#: renovate/lib/config/presets/internal/schedule.ts:30
+msgid "Schedule for weekends."
+msgstr ""
+
+#: renovate/lib/config/presets/internal/schedule.ts:34
+msgid "Schedule for weekdays."
+msgstr ""
+
+#: renovate/lib/config/presets/internal/schedule.ts:39
+msgid "Schedule for typical non-office hours (night time and weekends)."
+msgstr ""
+
+#: renovate/lib/config/presets/internal/workarounds.ts:8
+msgid "A collection of workarounds for known problems with packages."
+msgstr ""
+
+#: renovate/lib/config/presets/internal/workarounds.ts:25
+msgid "Fix some problems with very old Maven commons versions."
+msgstr ""
+
+#: renovate/lib/config/presets/internal/workarounds.ts:36
+msgid "Ignore spring cloud `1.x` releases."
+msgstr ""
+
+#: renovate/lib/config/presets/internal/workarounds.ts:48
+msgid "Ignore `web3j` `5.0.0` release."
+msgstr ""
+
+#: renovate/lib/config/presets/internal/workarounds.ts:58
+msgid "Ignore `http4s` digest-based `1.x` milestones."
+msgstr ""
+
+#: renovate/lib/config/presets/internal/workarounds.ts:68
+msgid "Use node versioning for `@types/node`."
+msgstr ""
+
+#: renovate/lib/config/presets/internal/workarounds.ts:79
+msgid ""
+"Limit concurrent requests to reduce load on Repology servers until we can "
+"fix this properly, see issue `#10133`."
+msgstr ""
+
+#: renovate/lib/config/presets/internal/workarounds.ts:89
+msgid "Do not upgrade from Alpine stable to edge."
+msgstr ""
+
+#: renovate/lib/config/presets/internal/workarounds.ts:101
+msgid "Use specific versioning for Red Hat-maintained container images"
+msgstr ""
+
+#: renovate/lib/workers/repository/onboarding/pr/config-description.ts:51
+msgid ""
+"Configuration Summary\n"
+"\n"
+"Based on the default config's presets, Renovate will:"
+msgstr ""
+
+#: renovate/lib/workers/repository/onboarding/pr/config-description.ts:54
+msgid "Start dependency updates only once this onboarding PR is merged"
+msgstr ""
+
+#: renovate/lib/workers/repository/onboarding/pr/config-description.ts:62
+msgid ""
+"Would you like to change the way Renovate is upgrading your dependencies?"
+msgstr ""
+
+#: renovate/lib/workers/repository/onboarding/pr/config-description.ts:67
+#, javascript-format
+msgid ""
+"Simply edit the `%s` in this branch with your custom config and the list of "
+"Pull Requests in the \"What to Expect\" section below will be updated the "
+"next time Renovate runs."
+msgstr ""
+
+#: renovate/lib/workers/repository/onboarding/pr/index.ts:45
+#, javascript-format
+msgid ""
+"Welcome to [Renovate](%s)! This is an onboarding PR to help you understand "
+"and configure settings before regular Pull Requests begin.\n"
+"\n"
+msgstr ""
+
+#: renovate/lib/workers/repository/onboarding/pr/index.ts:54
+msgid ""
+"To activate Renovate, merge this Pull Request. To disable Renovate, simply "
+"close this Pull Request unmerged."
+msgstr ""
+
+#: renovate/lib/workers/repository/onboarding/pr/index.ts:59
+msgid ""
+"Renovate will begin keeping your dependencies up-to-date only once you merge "
+"or close this Pull Request."
+msgstr ""
+
+#: renovate/lib/workers/repository/onboarding/pr/index.ts:78
+#, javascript-format
+msgid ""
+"Got questions? Check out Renovate's [Docs](%s), particularly the Getting "
+"Started section.\n"
+"If you need any further assistance then you can also [request help here](%s)."
+msgstr ""
+
+#: renovate/lib/workers/repository/onboarding/pr/index.ts:98
+msgid "Detected Package Files"
+msgstr ""
+
+#: renovate/lib/workers/repository/onboarding/pr/index.ts:112
+#, javascript-format
+msgid ""
+"Configuration\n"
+"\n"
+":abcd: Renovate has detected a custom config for this PR. Feel free to ask "
+"for [help](%s) if you have any doubts and would like it reviewed."
+msgstr ""
+
+#: renovate/lib/workers/repository/onboarding/pr/index.ts:125
+msgid ""
+"This PR has a merge conflict. However, Renovate is unable to automatically "
+"fix that due to edits in this branch. Please resolve the merge conflict "
+"manually."
+msgstr ""
+
+#: renovate/lib/workers/repository/onboarding/pr/index.ts:130
+msgid ""
+"Important: Now that this branch is edited, Renovate can't rebase it from the "
+"base branch any more. If you make changes to the base branch that could "
+"impact this onboarding PR, please merge them manually."
+msgstr ""
+
+#: renovate/lib/workers/repository/onboarding/pr/pr-list.ts:15
+msgid "What to Expect"
+msgstr ""
+
+#: renovate/lib/workers/repository/onboarding/pr/pr-list.ts:18
+msgid ""
+"It looks like your repository dependencies are already up-to-date and no "
+"Pull Requests will be necessary right away."
+msgstr ""
+
+#: renovate/lib/workers/repository/onboarding/pr/pr-list.ts:24
+#, javascript-format
+msgid "With your current configuration, Renovate will create %d Pull Request"
+msgid_plural ""
+"With your current configuration, Renovate will create %d Pull Requests"
+msgstr[0] ""
+msgstr[1] ""
+
+#: renovate/lib/workers/repository/onboarding/pr/pr-list.ts:41
+msgctxt "onboarding/pr/pr-list"
+msgid "Schedule"
+msgstr ""
+
+#: renovate/lib/workers/repository/onboarding/pr/pr-list.ts:44
+msgctxt "onboarding/pr/pr-list"
+msgid "Branch name"
+msgstr ""
+
+#: renovate/lib/workers/repository/onboarding/pr/pr-list.ts:48
+msgctxt "onboarding/pr/pr-list"
+msgid "Merge into"
+msgstr ""
+
+#: renovate/lib/workers/repository/onboarding/pr/pr-list.ts:57
+msgid "Regenerate lock files to use latest dependency versions"
+msgstr ""
+
+#: renovate/lib/workers/repository/onboarding/pr/pr-list.ts:61
+msgctxt "onboarding/pr/pr-list"
+msgid "Pin"
+msgstr ""
+
+#: renovate/lib/workers/repository/onboarding/pr/pr-list.ts:63
+msgctxt "onboarding/pr/pr-list"
+msgid "Upgrade"
+msgstr ""
+
+#: renovate/lib/workers/repository/onboarding/pr/pr-list.ts:75
+#: renovate/lib/workers/repository/onboarding/pr/pr-list.ts:77
+msgctxt "onboarding/pr/pr-list"
+msgid "to"
+msgstr ""
+
+#: renovate/lib/workers/repository/onboarding/pr/pr-list.ts:100
+#, javascript-format
+msgid ""
+"Branch creation will be limited to maximum %d per hour, so it doesn't swamp "
+"any CI resources or spam the project. See docs for `prhourlylimit` for "
+"details."
+msgstr ""

@@ -1,0 +1,17 @@
+renovate/lib/config/presets/internal/compatibility.ts
+renovate/lib/config/presets/internal/config.ts
+renovate/lib/config/presets/internal/default.ts
+renovate/lib/config/presets/internal/docker.ts
+renovate/lib/config/presets/internal/group.ts
+renovate/lib/config/presets/internal/helpers.ts
+renovate/lib/config/presets/internal/monorepo.ts
+renovate/lib/config/presets/internal/npm.ts
+renovate/lib/config/presets/internal/packages.ts
+renovate/lib/config/presets/internal/preview.ts
+renovate/lib/config/presets/internal/regex-managers.ts
+renovate/lib/config/presets/internal/replacements.ts
+renovate/lib/config/presets/internal/schedule.ts
+renovate/lib/config/presets/internal/workarounds.ts
+renovate/lib/workers/repository/onboarding/pr/config-description.ts
+renovate/lib/workers/repository/onboarding/pr/index.ts
+renovate/lib/workers/repository/onboarding/pr/pr-list.ts
