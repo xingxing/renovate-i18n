@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: renovate-platform\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-09-23 17:01+0800\n"
+"POT-Creation-Date: 2022-09-24 11:41+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -150,18 +150,18 @@ msgstr ""
 msgid "Do not renovate `peerDependencies` versions/ranges."
 msgstr ""
 
-#: renovate/lib/config/presets/internal/default.ts:213
-msgid ""
-"If Renovate detects semantic commits, it will use semantic commit type `fix` "
-"for dependencies and `chore` for all others."
-msgstr ""
-
 #: renovate/lib/config/presets/internal/default.ts:196
 msgid "Do not renovate `devDependencies` versions/ranges."
 msgstr ""
 
 #: renovate/lib/config/presets/internal/default.ts:206
 msgid "Disable `digest` and Git hash updates."
+msgstr ""
+
+#: renovate/lib/config/presets/internal/default.ts:213
+msgid ""
+"If Renovate detects semantic commits, it will use semantic commit type `fix` "
+"for dependencies and `chore` for all others."
 msgstr ""
 
 #: renovate/lib/config/presets/internal/default.ts:240
@@ -172,10 +172,6 @@ msgstr ""
 
 #: renovate/lib/config/presets/internal/default.ts:251
 msgid "Rebase existing PRs any time the base branch has been updated."
-msgstr ""
-
-#: renovate/lib/config/presets/internal/default.ts:277
-msgid "Rate limit PR creation to a maximum of two per hour."
 msgstr ""
 
 #: renovate/lib/config/presets/internal/default.ts:256
@@ -190,12 +186,12 @@ msgstr ""
 msgid "Removes rate limit for PR creation per hour."
 msgstr ""
 
-#: renovate/lib/config/presets/internal/default.ts:292
-msgid "Limit to maximum 10 open PRs at any time."
-msgstr ""
-
 #: renovate/lib/config/presets/internal/default.ts:271
 msgid "Rate limit PR creation to a maximum of one per hour."
+msgstr ""
+
+#: renovate/lib/config/presets/internal/default.ts:277
+msgid "Rate limit PR creation to a maximum of two per hour."
 msgstr ""
 
 #: renovate/lib/config/presets/internal/default.ts:283
@@ -204,6 +200,10 @@ msgstr ""
 
 #: renovate/lib/config/presets/internal/default.ts:288
 msgid "Remove limit for open PRs at any time."
+msgstr ""
+
+#: renovate/lib/config/presets/internal/default.ts:292
+msgid "Limit to maximum 10 open PRs at any time."
 msgstr ""
 
 #: renovate/lib/config/presets/internal/default.ts:296
@@ -348,20 +348,12 @@ msgstr ""
 msgid "Add `{{arg0}}` as reviewer for PRs."
 msgstr ""
 
-#: renovate/lib/config/presets/internal/default.ts:607
-msgid "Enable Renovate Dependency Dashboard creation."
-msgstr ""
-
 #: renovate/lib/config/presets/internal/default.ts:543
 msgid "Set `{{arg0}}` as assignee and reviewer of PRs."
 msgstr ""
 
 #: renovate/lib/config/presets/internal/default.ts:547
 msgid "Raise PR when vulnerability alerts are detected."
-msgstr ""
-
-#: renovate/lib/config/presets/internal/default.ts:611
-msgid "Disable Renovate Dependency Dashboard creation."
 msgstr ""
 
 #: renovate/lib/config/presets/internal/default.ts:554
@@ -396,6 +388,14 @@ msgstr ""
 msgid ""
 "Always widen `peerDependencies` SemVer ranges when updating, instead of "
 "replacing."
+msgstr ""
+
+#: renovate/lib/config/presets/internal/default.ts:607
+msgid "Enable Renovate Dependency Dashboard creation."
+msgstr ""
+
+#: renovate/lib/config/presets/internal/default.ts:611
+msgid "Disable Renovate Dependency Dashboard creation."
 msgstr ""
 
 #: renovate/lib/config/presets/internal/default.ts:616
