@@ -1,19 +1,11 @@
 #!/bin/bash
 
-set -euo pipefail
+set -exuo pipefail
 
 # This script should be called by GitHub Action
 
 function install_gettext {
-    sudo apt install -y gettext
-}
-
-function commit {
-    git config --global user.name  'Renovate Bot'
-    git config --global user.email 'renovate@whitesourcesoftware.com'
-
-    git add sources.txt messages.pot
-    git commit -m "chore(i18n): daily update the POT file"
+    sudo apt-get install -y gettext
 }
 
 function commit {
@@ -21,7 +13,11 @@ function commit {
     changeLines=$(git diff --shortstat messages.pot | awk '{ print $4 }')
 
     if [ "$changeLines" -gt 1 ]; then
-        commit
+        git config --global user.name 'Renovate Bot'
+        git config --global user.email 'renovate@whitesourcesoftware.com'
+
+        git add sources.txt messages.pot
+        git commit -m "chore(i18n): daily update the POT file"
     else
         git checkout .
         echo 'The POT file have not changed. Goodbye.'
