@@ -15,4 +15,6 @@ renovate/lib/workers/global/initialize.ts
 renovate/lib/workers/repository/onboarding/pr/config-description.ts
 renovate/lib/workers/repository/onboarding/pr/index.ts
 renovate/lib/workers/repository/onboarding/pr/pr-list.ts
+renovate/lib/workers/repository/update/pr/body/config-description.ts
+renovate/lib/workers/repository/update/pr/body/controls.ts
 renovate/lib/workers/repository/update/pr/body/updates-table.ts
