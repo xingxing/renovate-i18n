@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: renovate-platform\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-09-29 02:54+0000\n"
+"POT-Creation-Date: 2022-09-29 07:34+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1190,49 +1190,65 @@ msgctxt "worker/repository/update/pr/body"
 msgid "Configuration"
 msgstr ""
 
+#: renovate/lib/workers/repository/update/pr/body/config-description.ts:15
+msgctxt "worker/repository/update/pr/body"
+msgid "Schedule"
+msgstr ""
+
 #: renovate/lib/workers/repository/update/pr/body/config-description.ts:16
+#: renovate/lib/workers/repository/update/pr/body/config-description.ts:18
 msgctxt "worker/repository/update/pr/body"
 msgid "Branch creation"
 msgstr ""
 
 #: renovate/lib/workers/repository/update/pr/body/config-description.ts:19
+#: renovate/lib/workers/repository/update/pr/body/config-description.ts:21
 #: renovate/lib/workers/repository/update/pr/body/config-description.ts:27
+#: renovate/lib/workers/repository/update/pr/body/config-description.ts:29
 msgctxt "worker/repository/update/pr/body"
 msgid "Automerge"
 msgstr ""
 
 #: renovate/lib/workers/repository/update/pr/body/config-description.ts:36
+#: renovate/lib/workers/repository/update/pr/body/config-description.ts:38
 msgid "Disabled due to failing status checks."
 msgstr ""
 
 #: renovate/lib/workers/repository/update/pr/body/config-description.ts:38
+#: renovate/lib/workers/repository/update/pr/body/config-description.ts:40
 msgctxt "worker/repository/update/pr/body"
 msgid "Enabled."
 msgstr ""
 
 #: renovate/lib/workers/repository/update/pr/body/config-description.ts:42
+#: renovate/lib/workers/repository/update/pr/body/config-description.ts:44
 msgid "Disabled by config. Please merge this manually once you are satisfied."
 msgstr ""
 
 #: renovate/lib/workers/repository/update/pr/body/config-description.ts:49
+#: renovate/lib/workers/repository/update/pr/body/config-description.ts:51
 msgctxt "worker/repository/update/pr/body"
 msgid "Rebasing"
 msgstr ""
 
 #: renovate/lib/workers/repository/update/pr/body/config-description.ts:53
+#: renovate/lib/workers/repository/update/pr/body/config-description.ts:55
 msgid "Whenever PR is behind base branch"
 msgstr ""
 
 #: renovate/lib/workers/repository/update/pr/body/config-description.ts:55
+#: renovate/lib/workers/repository/update/pr/body/config-description.ts:57
 msgctxt "worker/repository/update/pr/body"
 msgid "Never"
 msgstr ""
 
 #: renovate/lib/workers/repository/update/pr/body/config-description.ts:57
+#: renovate/lib/workers/repository/update/pr/body/config-description.ts:59
 msgid "Whenever PR becomes conflicted"
 msgstr ""
 
 #: renovate/lib/workers/repository/update/pr/body/config-description.ts:59
+#: renovate/lib/workers/repository/update/pr/body/config-description.ts:61
 msgid "or you tick the rebase/retry checkbox."
 msgstr ""
 
