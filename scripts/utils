@@ -34,7 +34,6 @@ function extract_translable_strings {
 	    --files-from=sources.txt \
 	    --output=messages.pot \
 		--sort-by-file \
-		--join-existing \
 		--language=JavaScript \
 		--package-name=renovate-platform
 }
