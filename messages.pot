@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: renovate-platform\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-10-05 05:43+0000\n"
+"POT-Creation-Date: 2022-10-11 05:56+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1134,23 +1134,23 @@ msgstr ""
 msgid "Whenever PR becomes conflicted"
 msgstr ""
 
-#: renovate/lib/workers/repository/update/pr/body/config-description.ts:64
+#: renovate/lib/workers/repository/update/pr/body/config-description.ts:63
 msgid "or you tick the rebase/retry checkbox."
 msgstr ""
 
-#: renovate/lib/workers/repository/update/pr/body/config-description.ts:76
+#: renovate/lib/workers/repository/update/pr/body/config-description.ts:74
 msgid "Close this PR and you won't be reminded about this update again."
 msgid_plural ""
 "Close this PR and you won't be reminded about these updates again."
 msgstr[0] ""
 msgstr[1] ""
 
-#: renovate/lib/workers/repository/update/pr/body/config-description.ts:94
+#: renovate/lib/workers/repository/update/pr/body/config-description.ts:91
 #, javascript-format
 msgid " in timezone %s"
 msgstr ""
 
-#: renovate/lib/workers/repository/update/pr/body/config-description.ts:99
+#: renovate/lib/workers/repository/update/pr/body/config-description.ts:96
 msgid "At any time (no schedule defined)"
 msgstr ""
 
