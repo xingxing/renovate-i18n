@@ -5,7 +5,14 @@ set -exuo pipefail
 # This script should be called by GitHub Action
 
 function install_gettext {
-    sudo apt-get install -y gettext
+    wget https://ftp.gnu.org/gnu/gettext/gettext-0.20.1.tar.gz
+    tar -xzvf gettext-0.20.1.tar.gz
+    cd gettext-0.20.1
+    ./configure --prefix /tmp/gettext/
+    make && make install
+    export PATH="/tmp/gettext/bin:$PATH"
+    which gettext
+    gettext --version
 }
 
 function commit {
@@ -27,11 +34,11 @@ function commit {
 function main {
     install_gettext
 
-    make renovate upstream_repo=https://github.com/xingxing/renovate.git ref=i18n
-    make sources.txt
-    make messages.pot
+    # make renovate upstream_repo=https://github.com/xingxing/renovate.git ref=i18n
+    # make sources.txt
+    # make messages.pot
 
-    commit
+    # commit
 }
 
 main
