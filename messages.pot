@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: renovate-platform\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-10-12 11:55+0800\n"
+"POT-Creation-Date: 2022-10-24 07:29+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -692,10 +692,6 @@ msgstr ""
 msgid "Add `@types/jest` update to Jest monorepo."
 msgstr ""
 
-#: renovate/lib/config/presets/internal/group.ts:713
-msgid "Group known monorepo packages together."
-msgstr ""
-
 #: renovate/lib/config/presets/internal/helpers.ts:6
 msgid "Disable `major` updates to `@types/node`."
 msgstr ""
@@ -762,23 +758,23 @@ msgstr ""
 msgid "Unit test packages for JavaScript."
 msgstr ""
 
-#: renovate/lib/config/presets/internal/packages.ts:98
+#: renovate/lib/config/presets/internal/packages.ts:99
 msgid "All unit test packages."
 msgstr ""
 
-#: renovate/lib/config/presets/internal/packages.ts:102
+#: renovate/lib/config/presets/internal/packages.ts:103
 msgid "JavaScript test packages."
 msgstr ""
 
-#: renovate/lib/config/presets/internal/packages.ts:106
+#: renovate/lib/config/presets/internal/packages.ts:107
 msgid "Test packages."
 msgstr ""
 
-#: renovate/lib/config/presets/internal/packages.ts:110
+#: renovate/lib/config/presets/internal/packages.ts:111
 msgid "All packages published by Gatsby."
 msgstr ""
 
-#: renovate/lib/config/presets/internal/packages.ts:115
+#: renovate/lib/config/presets/internal/packages.ts:116
 msgid "All `googleapis` packages."
 msgstr ""
 
@@ -802,73 +798,73 @@ msgstr ""
 msgid "All replacements."
 msgstr ""
 
-#: renovate/lib/config/presets/internal/replacements.ts:32
+#: renovate/lib/config/presets/internal/replacements.ts:91
 msgid "`babel-eslint` was renamed under the `@babel` scope."
 msgstr ""
 
-#: renovate/lib/config/presets/internal/replacements.ts:44
+#: renovate/lib/config/presets/internal/replacements.ts:103
 msgid "`cucumber` became scoped."
 msgstr ""
 
-#: renovate/lib/config/presets/internal/replacements.ts:55
+#: renovate/lib/config/presets/internal/replacements.ts:114
 msgid "`fastify` packages became scoped"
 msgstr ""
 
-#: renovate/lib/config/presets/internal/replacements.ts:410
+#: renovate/lib/config/presets/internal/replacements.ts:469
 msgid "`hapi` became scoped."
 msgstr ""
 
-#: renovate/lib/config/presets/internal/replacements.ts:422
+#: renovate/lib/config/presets/internal/replacements.ts:481
 msgid "Jade was renamed to Pug."
 msgstr ""
 
-#: renovate/lib/config/presets/internal/replacements.ts:433
+#: renovate/lib/config/presets/internal/replacements.ts:492
 msgid "`joi` became scoped under the `hapi` organization."
 msgstr ""
 
-#: renovate/lib/config/presets/internal/replacements.ts:445
+#: renovate/lib/config/presets/internal/replacements.ts:504
 msgid "`joi` was moved out of the `hapi` organization."
 msgstr ""
 
-#: renovate/lib/config/presets/internal/replacements.ts:457
+#: renovate/lib/config/presets/internal/replacements.ts:516
 msgid "`middie` became scoped."
 msgstr ""
 
-#: renovate/lib/config/presets/internal/replacements.ts:469
+#: renovate/lib/config/presets/internal/replacements.ts:528
 msgid "`now` was renamed to `vercel`."
 msgstr ""
 
-#: renovate/lib/config/presets/internal/replacements.ts:481
+#: renovate/lib/config/presets/internal/replacements.ts:540
 msgid "`@parcel/css` was renamed `lightningcss`."
 msgstr ""
 
-#: renovate/lib/config/presets/internal/replacements.ts:493
+#: renovate/lib/config/presets/internal/replacements.ts:552
 msgid "`react-query/devtools` became scoped under the `tanstack` organization."
 msgstr ""
 
-#: renovate/lib/config/presets/internal/replacements.ts:507
+#: renovate/lib/config/presets/internal/replacements.ts:566
 msgid "`react-query` became scoped under the `tanstack` organization."
 msgstr ""
 
-#: renovate/lib/config/presets/internal/replacements.ts:521
+#: renovate/lib/config/presets/internal/replacements.ts:580
 msgid ""
 "The `redux-devtools-extension` package was renamed to `@redux-devtools/"
 "extension`."
 msgstr ""
 
-#: renovate/lib/config/presets/internal/replacements.ts:534
+#: renovate/lib/config/presets/internal/replacements.ts:593
 msgid "The `@renovate/pep440` package was renamed to `@renovatebot/pep440`."
 msgstr ""
 
-#: renovate/lib/config/presets/internal/replacements.ts:546
+#: renovate/lib/config/presets/internal/replacements.ts:605
 msgid "The node-resolve plugin for rollup became scoped."
 msgstr ""
 
-#: renovate/lib/config/presets/internal/replacements.ts:558
+#: renovate/lib/config/presets/internal/replacements.ts:617
 msgid "The `xmldom` package is now published as `@xmldom/xmldom`."
 msgstr ""
 
-#: renovate/lib/config/presets/internal/replacements.ts:587
+#: renovate/lib/config/presets/internal/replacements.ts:646
 msgid ""
 "The `material-ui` monorepo org was renamed from `@material-ui` to `@mui`."
 msgstr ""
@@ -947,30 +943,6 @@ msgstr ""
 msgid "Use specific versioning for Red Hat-maintained container images"
 msgstr ""
 
-#: renovate/lib/workers/repository/onboarding/pr/config-description.ts:52
-msgid ""
-"Configuration Summary\n"
-"\n"
-"Based on the default config's presets, Renovate will:"
-msgstr ""
-
-#: renovate/lib/workers/repository/onboarding/pr/config-description.ts:57
-msgid "Start dependency updates only once this onboarding PR is merged"
-msgstr ""
-
-#: renovate/lib/workers/repository/onboarding/pr/config-description.ts:66
-msgid ""
-"Would you like to change the way Renovate is upgrading your dependencies?"
-msgstr ""
-
-#: renovate/lib/workers/repository/onboarding/pr/config-description.ts:71
-#, javascript-format
-msgid ""
-" Simply edit the `%s` in this branch with your custom config and the list of "
-"Pull Requests in the \"What to Expect\" section below will be updated the "
-"next time Renovate runs."
-msgstr ""
-
 #: renovate/lib/workers/repository/onboarding/pr/index.ts:45
 #, javascript-format
 msgid ""
@@ -999,33 +971,6 @@ msgid ""
 "If you need any further assistance then you can also [request help here](%s)."
 msgstr ""
 
-#: renovate/lib/workers/repository/onboarding/pr/index.ts:104
-msgid "Detected Package Files"
-msgstr ""
-
-#: renovate/lib/workers/repository/onboarding/pr/index.ts:123
-#, javascript-format
-msgid ""
-"Configuration\n"
-"\n"
-":abcd: Renovate has detected a custom config for this PR. Feel free to ask "
-"for [help](%s) if you have any doubts and would like it reviewed."
-msgstr ""
-
-#: renovate/lib/workers/repository/onboarding/pr/index.ts:138
-msgid ""
-"This PR has a merge conflict. However, Renovate is unable to automatically "
-"fix that due to edits in this branch. Please resolve the merge conflict "
-"manually."
-msgstr ""
-
-#: renovate/lib/workers/repository/onboarding/pr/index.ts:144
-msgid ""
-"Important: Now that this branch is edited, Renovate can't rebase it from the "
-"base branch any more. If you make changes to the base branch that could "
-"impact this onboarding PR, please merge them manually."
-msgstr ""
-
 #: renovate/lib/workers/repository/onboarding/pr/pr-list.ts:15
 msgid "What to Expect"
 msgstr ""
@@ -1043,11 +988,6 @@ msgid_plural ""
 "With your current configuration, Renovate will create %d Pull Requests"
 msgstr[0] ""
 msgstr[1] ""
-
-#: renovate/lib/workers/repository/onboarding/pr/pr-list.ts:46
-msgctxt "onboarding/pr/pr-list"
-msgid "Schedule"
-msgstr ""
 
 #: renovate/lib/workers/repository/onboarding/pr/pr-list.ts:49
 msgctxt "onboarding/pr/pr-list"
@@ -1108,39 +1048,9 @@ msgctxt "worker/repository/update/pr/body"
 msgid "Automerge"
 msgstr ""
 
-#: renovate/lib/workers/repository/update/pr/body/config-description.ts:39
-msgid "Disabled due to failing status checks."
-msgstr ""
-
-#: renovate/lib/workers/repository/update/pr/body/config-description.ts:41
-msgctxt "worker/repository/update/pr/body"
-msgid "Enabled."
-msgstr ""
-
-#: renovate/lib/workers/repository/update/pr/body/config-description.ts:45
-msgid "Disabled by config. Please merge this manually once you are satisfied."
-msgstr ""
-
 #: renovate/lib/workers/repository/update/pr/body/config-description.ts:52
 msgctxt "worker/repository/update/pr/body"
 msgid "Rebasing"
-msgstr ""
-
-#: renovate/lib/workers/repository/update/pr/body/config-description.ts:56
-msgid "Whenever PR is behind base branch"
-msgstr ""
-
-#: renovate/lib/workers/repository/update/pr/body/config-description.ts:58
-msgctxt "worker/repository/update/pr/body"
-msgid "Never"
-msgstr ""
-
-#: renovate/lib/workers/repository/update/pr/body/config-description.ts:60
-msgid "Whenever PR becomes conflicted"
-msgstr ""
-
-#: renovate/lib/workers/repository/update/pr/body/config-description.ts:63
-msgid "or you tick the rebase/retry checkbox."
 msgstr ""
 
 #: renovate/lib/workers/repository/update/pr/body/config-description.ts:74
@@ -1150,21 +1060,8 @@ msgid_plural ""
 msgstr[0] ""
 msgstr[1] ""
 
-#: renovate/lib/workers/repository/update/pr/body/config-description.ts:91
-#, javascript-format
-msgid " in timezone %s"
-msgstr ""
-
-#: renovate/lib/workers/repository/update/pr/body/config-description.ts:96
-msgid "At any time (no schedule defined)"
-msgstr ""
-
 #: renovate/lib/workers/repository/update/pr/body/controls.ts:9
 msgid "custom changes will be lost."
-msgstr ""
-
-#: renovate/lib/workers/repository/update/pr/body/controls.ts:13
-msgid "If you want to rebase/retry this PR, click this checkbox."
 msgstr ""
 
 #: renovate/lib/workers/repository/update/pr/body/updates-table.ts:74
