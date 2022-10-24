@@ -15,8 +15,12 @@ concurrency:
   group: i18n
 
 jobs:
-  i18n:
+  build:
     runs-on: ubuntu-latest
+
+    env:
+      NODE_VERSION: 16
+
     steps:
       - uses: actions/checkout@v3
         with:
