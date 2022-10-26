@@ -12,6 +12,7 @@ renovate/lib/config/presets/internal/replacements.ts
 renovate/lib/config/presets/internal/schedule.ts
 renovate/lib/config/presets/internal/workarounds.ts
 renovate/lib/workers/global/initialize.ts
+renovate/lib/workers/repository/finalise/prune.ts
 renovate/lib/workers/repository/onboarding/pr/config-description.ts
 renovate/lib/workers/repository/onboarding/pr/index.ts
 renovate/lib/workers/repository/onboarding/pr/pr-list.ts

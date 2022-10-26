@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: renovate-platform\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-10-24 08:45+0000\n"
+"POT-Creation-Date: 2022-10-26 01:54+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -945,6 +945,17 @@ msgstr ""
 
 #: renovate/lib/config/presets/internal/workarounds.ts:98
 msgid "Use specific versioning for Red Hat-maintained container images"
+msgstr ""
+
+#: renovate/lib/workers/repository/finalise/prune.ts:41
+msgid "Autoclosing Skipped"
+msgstr ""
+
+#: renovate/lib/workers/repository/finalise/prune.ts:43
+msgid ""
+"This PR has been flagged for autoclosing. However, it is being skipped due "
+"to the branch being already modified. Please close/delete it manually or "
+"report a bug if you think this is in error."
 msgstr ""
 
 #: renovate/lib/workers/repository/onboarding/pr/config-description.ts:52
