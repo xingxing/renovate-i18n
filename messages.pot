@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: renovate-platform\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-10-26 01:54+0000\n"
+"POT-Creation-Date: 2022-10-30 05:27+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -460,239 +460,239 @@ msgstr ""
 msgid "Use curated list of recommended non-monorepo package groupings."
 msgstr ""
 
-#: renovate/lib/config/presets/internal/group.ts:104
+#: renovate/lib/config/presets/internal/group.ts:105
 msgid "Group all packages published by Apollo GraphQL together."
 msgstr ""
 
-#: renovate/lib/config/presets/internal/group.ts:113
+#: renovate/lib/config/presets/internal/group.ts:114
 msgid "Group CodeMirror packages together."
 msgstr ""
 
-#: renovate/lib/config/presets/internal/group.ts:122
+#: renovate/lib/config/presets/internal/group.ts:123
 msgid "Group all `@types` packages together."
 msgstr ""
 
-#: renovate/lib/config/presets/internal/group.ts:131
+#: renovate/lib/config/presets/internal/group.ts:132
 msgid ".NET Core Docker containers."
 msgstr ""
 
-#: renovate/lib/config/presets/internal/group.ts:141
+#: renovate/lib/config/presets/internal/group.ts:142
 msgid "Group all packages by Font Awesome together."
 msgstr ""
 
-#: renovate/lib/config/presets/internal/group.ts:150
+#: renovate/lib/config/presets/internal/group.ts:151
 msgid "Group Fusion.js packages together."
 msgstr ""
 
-#: renovate/lib/config/presets/internal/group.ts:160
+#: renovate/lib/config/presets/internal/group.ts:161
 msgid "Group Glimmer.js packages together."
 msgstr ""
 
-#: renovate/lib/config/presets/internal/group.ts:170
+#: renovate/lib/config/presets/internal/group.ts:171
 msgid "Group PHP Illuminate packages together."
 msgstr ""
 
-#: renovate/lib/config/presets/internal/group.ts:180
+#: renovate/lib/config/presets/internal/group.ts:181
 msgid "Group PHP Symfony packages together."
 msgstr ""
 
-#: renovate/lib/config/presets/internal/group.ts:190
+#: renovate/lib/config/presets/internal/group.ts:191
 msgid "Group PHPStan packages together."
 msgstr ""
 
-#: renovate/lib/config/presets/internal/group.ts:200
+#: renovate/lib/config/presets/internal/group.ts:201
 msgid "Group all `@polymer` packages together."
 msgstr ""
 
-#: renovate/lib/config/presets/internal/group.ts:209
+#: renovate/lib/config/presets/internal/group.ts:210
 msgid "Group Java Hibernate Core packages."
 msgstr ""
 
-#: renovate/lib/config/presets/internal/group.ts:218
+#: renovate/lib/config/presets/internal/group.ts:219
 msgid "Group Java Hibernate Validator packages."
 msgstr ""
 
-#: renovate/lib/config/presets/internal/group.ts:227
+#: renovate/lib/config/presets/internal/group.ts:228
 msgid "Group Java Hibernate OGM packages."
 msgstr ""
 
-#: renovate/lib/config/presets/internal/group.ts:236
+#: renovate/lib/config/presets/internal/group.ts:237
 msgid "Group Java Hibernate Commons packages."
 msgstr ""
 
-#: renovate/lib/config/presets/internal/group.ts:245
+#: renovate/lib/config/presets/internal/group.ts:246
 msgid "Group Java Resilience4j packages."
 msgstr ""
 
-#: renovate/lib/config/presets/internal/group.ts:254
+#: renovate/lib/config/presets/internal/group.ts:255
 msgid "Group Java Spring AMQP packages."
 msgstr ""
 
-#: renovate/lib/config/presets/internal/group.ts:263
+#: renovate/lib/config/presets/internal/group.ts:264
 msgid "Group Java Spring Android packages."
 msgstr ""
 
-#: renovate/lib/config/presets/internal/group.ts:272
+#: renovate/lib/config/presets/internal/group.ts:273
 msgid "Group Java Spring Batch packages."
 msgstr ""
 
-#: renovate/lib/config/presets/internal/group.ts:281
+#: renovate/lib/config/presets/internal/group.ts:282
 msgid "Group Java Spring Boot packages."
 msgstr ""
 
-#: renovate/lib/config/presets/internal/group.ts:291
+#: renovate/lib/config/presets/internal/group.ts:292
 msgid "Group Java Spring Cloud packages."
 msgstr ""
 
-#: renovate/lib/config/presets/internal/group.ts:300
+#: renovate/lib/config/presets/internal/group.ts:301
 msgid "Group Java Spring Core packages."
 msgstr ""
 
-#: renovate/lib/config/presets/internal/group.ts:309
+#: renovate/lib/config/presets/internal/group.ts:310
 msgid "Group Java Spring Data packages."
 msgstr ""
 
-#: renovate/lib/config/presets/internal/group.ts:318
+#: renovate/lib/config/presets/internal/group.ts:319
 msgid "Group Java Spring HATEOAS packages."
 msgstr ""
 
-#: renovate/lib/config/presets/internal/group.ts:327
+#: renovate/lib/config/presets/internal/group.ts:328
 msgid "Group Java Spring Integration packages."
 msgstr ""
 
-#: renovate/lib/config/presets/internal/group.ts:336
+#: renovate/lib/config/presets/internal/group.ts:337
 msgid "Group Java Spring Kafka packages."
 msgstr ""
 
-#: renovate/lib/config/presets/internal/group.ts:345
+#: renovate/lib/config/presets/internal/group.ts:346
 msgid "Group Java Spring LDAP packages."
 msgstr ""
 
-#: renovate/lib/config/presets/internal/group.ts:354
+#: renovate/lib/config/presets/internal/group.ts:355
 msgid "Group Java Spring Mobile packages."
 msgstr ""
 
-#: renovate/lib/config/presets/internal/group.ts:363
+#: renovate/lib/config/presets/internal/group.ts:364
 msgid "Group Java Spring OSGi packages."
 msgstr ""
 
-#: renovate/lib/config/presets/internal/group.ts:372
+#: renovate/lib/config/presets/internal/group.ts:373
 msgid "Group Java Spring REST Docs packages."
 msgstr ""
 
-#: renovate/lib/config/presets/internal/group.ts:381
+#: renovate/lib/config/presets/internal/group.ts:382
 msgid "Group Java Spring Roo packages."
 msgstr ""
 
-#: renovate/lib/config/presets/internal/group.ts:390
+#: renovate/lib/config/presets/internal/group.ts:391
 msgid "Group Java Spring Scala packages."
 msgstr ""
 
-#: renovate/lib/config/presets/internal/group.ts:399
+#: renovate/lib/config/presets/internal/group.ts:400
 msgid "Group Java Spring Security packages."
 msgstr ""
 
-#: renovate/lib/config/presets/internal/group.ts:408
+#: renovate/lib/config/presets/internal/group.ts:409
 msgid "Group Java Spring Session packages."
 msgstr ""
 
-#: renovate/lib/config/presets/internal/group.ts:417
+#: renovate/lib/config/presets/internal/group.ts:418
 msgid "Group Java Spring Shell packages."
 msgstr ""
 
-#: renovate/lib/config/presets/internal/group.ts:426
+#: renovate/lib/config/presets/internal/group.ts:427
 msgid "Group Java Spring Social packages."
 msgstr ""
 
-#: renovate/lib/config/presets/internal/group.ts:435
+#: renovate/lib/config/presets/internal/group.ts:436
 msgid "Group Java Spring Statemachine packages."
 msgstr ""
 
-#: renovate/lib/config/presets/internal/group.ts:444
+#: renovate/lib/config/presets/internal/group.ts:445
 msgid "Group Java Spring WebFlow packages."
 msgstr ""
 
-#: renovate/lib/config/presets/internal/group.ts:453
+#: renovate/lib/config/presets/internal/group.ts:454
 msgid "Group Java Spring WS packages."
 msgstr ""
 
-#: renovate/lib/config/presets/internal/group.ts:462
+#: renovate/lib/config/presets/internal/group.ts:463
 msgid "Group socket.io packages."
 msgstr ""
 
-#: renovate/lib/config/presets/internal/group.ts:471
+#: renovate/lib/config/presets/internal/group.ts:472
 msgid "Group PostCSS packages together."
 msgstr ""
 
-#: renovate/lib/config/presets/internal/group.ts:480
+#: renovate/lib/config/presets/internal/group.ts:481
 msgid "Group Jekyll and related Ruby packages together."
 msgstr ""
 
-#: renovate/lib/config/presets/internal/group.ts:492
+#: renovate/lib/config/presets/internal/group.ts:493
 msgid "Group Ruby on Rails packages together."
 msgstr ""
 
-#: renovate/lib/config/presets/internal/group.ts:516
+#: renovate/lib/config/presets/internal/group.ts:517
 msgid "Group OmniAuth packages together."
 msgstr ""
 
-#: renovate/lib/config/presets/internal/group.ts:526
+#: renovate/lib/config/presets/internal/group.ts:527
 msgid "Group `go-openapi` packages together."
 msgstr ""
 
-#: renovate/lib/config/presets/internal/group.ts:537
+#: renovate/lib/config/presets/internal/group.ts:538
 msgid "Group Kubernetes packages together."
 msgstr ""
 
-#: renovate/lib/config/presets/internal/group.ts:576
+#: renovate/lib/config/presets/internal/group.ts:577
 msgid "Group `googleapis` packages together."
 msgstr ""
 
-#: renovate/lib/config/presets/internal/group.ts:585
+#: renovate/lib/config/presets/internal/group.ts:586
 msgid "Group various lint packages together."
 msgstr ""
 
-#: renovate/lib/config/presets/internal/group.ts:594
+#: renovate/lib/config/presets/internal/group.ts:595
 msgid "Group JavaScript unit test packages together."
 msgstr ""
 
-#: renovate/lib/config/presets/internal/group.ts:604
+#: renovate/lib/config/presets/internal/group.ts:605
 msgid "Group JavaScipt unit test packages together for non-major updates."
 msgstr ""
 
-#: renovate/lib/config/presets/internal/group.ts:615
+#: renovate/lib/config/presets/internal/group.ts:616
 msgid "Group all unit test packages together."
 msgstr ""
 
-#: renovate/lib/config/presets/internal/group.ts:625
+#: renovate/lib/config/presets/internal/group.ts:626
 msgid "Group all unit test packages together for non-major updates."
 msgstr ""
 
-#: renovate/lib/config/presets/internal/group.ts:636
+#: renovate/lib/config/presets/internal/group.ts:637
 msgid "Group JS test packages together."
 msgstr ""
 
-#: renovate/lib/config/presets/internal/group.ts:645
+#: renovate/lib/config/presets/internal/group.ts:646
 msgid "Group non-major JS test package updates together."
 msgstr ""
 
-#: renovate/lib/config/presets/internal/group.ts:655
+#: renovate/lib/config/presets/internal/group.ts:656
 msgid "Group all test packages together."
 msgstr ""
 
-#: renovate/lib/config/presets/internal/group.ts:664
+#: renovate/lib/config/presets/internal/group.ts:665
 msgid "Group all non-major test package updates together."
 msgstr ""
 
-#: renovate/lib/config/presets/internal/group.ts:674
+#: renovate/lib/config/presets/internal/group.ts:675
 msgid "Add `ts-jest` `major` update to Jest monorepo."
 msgstr ""
 
-#: renovate/lib/config/presets/internal/group.ts:684
+#: renovate/lib/config/presets/internal/group.ts:685
 msgid "Add `@types/jest` update to Jest monorepo."
 msgstr ""
 
-#: renovate/lib/config/presets/internal/group.ts:713
+#: renovate/lib/config/presets/internal/group.ts:724
 msgid "Group known monorepo packages together."
 msgstr ""
 
